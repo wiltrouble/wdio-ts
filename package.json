@@ -2,22 +2,31 @@
   "name": "webdriverio-typescript",
   "version": "1.0.0",
   "description": "",
-  "main": "wdio.conf.js",
-  "dependencies": {
-    "chromedriver": "^88.0.0",
-    "ts-node": "^9.1.1",
-    "wdio-chromedriver-service": "^7.0.0"
-  },
-  "devDependencies": {
-    "ts-loader": "^8.0.17",
-    "typescript": "^4.2.2",
-    "webpack": "^5.24.2",
-    "webpack-cli": "^4.5.0"
-  },
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wiltrouble/wdio-ts.git"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wiltrouble/wdio-ts/issues"
+  },
+  "homepage": "https://github.com/wiltrouble/wdio-ts#readme",
+  "dependencies": {
+    "@wdio/cli": "^7.0.9"
+  },
+  "devDependencies": {
+    "@wdio/cucumber-framework": "^7.0.7",
+    "@wdio/local-runner": "^7.0.9",
+    "@wdio/spec-reporter": "^7.0.7",
+    "chromedriver": "^88.0.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.2",
+    "wdio-chromedriver-service": "^7.0.0"
+  }
 }
